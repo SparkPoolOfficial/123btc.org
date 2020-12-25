@@ -1,4 +1,4 @@
-import React, { PureComponent } from 'react';
+import React, { PureComponent, Fragment } from 'react';
 import {
   Hidden,
   Link,
@@ -122,30 +122,37 @@ class NavBar extends PureComponent {
       )
     }
     return (
-      <Box
-        pl={1}
-        pr={1}
-        display="flex"
-        flexDirection="column"
-        id="NavBar"
-        className={classnames(styles.NavBar, sticky ? styles.NavBa_fixed : {})}
-        style={{ top }}>
+      <Fragment>
+        <Box
+          pl={1}
+          pr={1}
+          display="flex"
+          flexDirection="column"
+          id="NavBar"
+          className={classnames(styles.NavBar, sticky ? styles.NavBa_fixed : {})}
+          style={{ top }}>
+          {
+            (tagList || []).map(({ tag, tag_en }, index) => {
+              let tagName = language === 'zh' ? tag : tag_en;
+              return (
+                <Link
+                  href={`#${tag_en}`}
+                  key={tag_en}
+                  className={classnames(styles.link, activeKey === encodeURI(tag_en) ? styles.link_active : {})}
+                  color="textPrimary"
+                  underline="none">
+                  {tagName}
+                </Link>
+              )
+            })
+          }
+        </Box>
         {
-          (tagList || []).map(({ tag, tag_en }, index) => {
-            let tagName = language === 'zh' ? tag : tag_en;
-            return (
-              <Link
-                href={`#${tag_en}`}
-                key={tag_en}
-                className={classnames(styles.link, activeKey === encodeURI(tag_en) ? styles.link_active : {})}
-                color="textPrimary"
-                underline="none">
-                {tagName}
-              </Link>
-            )
-          })
+          sticky ? (
+            <Box style={{ width: 273.19 }}/>
+          ) : null
         }
-      </Box>
+      </Fragment>
     )
   }
 
