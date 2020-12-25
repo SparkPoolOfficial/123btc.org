@@ -9,7 +9,7 @@
       "tag":"热门推荐",
       "tag_en":"Hot",
       "logo":"",
-      "image":"https://sparkpool-expo.oss-cn-shanghai.aliyuncs.com/img-btc/hot/bitcoin%20%281%29.png"
+      "image":"/img-btc/hot/bitcoin.png"
    },
    {
       "name":"BitcoinTalk",
@@ -21,7 +21,7 @@
       "tag":"热门推荐",
       "tag_en":"Hot",
       "logo":"",
-      "image":"https://sparkpool-expo.oss-cn-shanghai.aliyuncs.com/img-btc/hot/bitcointalk.png"
+      "image":"/img-btc/hot/bitcointalk.png"
    },
    {
       "name":"Bitcoin Core",
@@ -33,7 +33,7 @@
       "tag":"热门推荐",
       "tag_en":"Hot",
       "logo":"",
-      "image":"https://sparkpool-expo.oss-cn-shanghai.aliyuncs.com/img-btc/hot/bitcore.png"
+      "image":"/img-btc/hot/bitcore.png"
    },
    {
       "name":"Blockchair",
@@ -45,7 +45,7 @@
       "tag":"热门推荐",
       "tag_en":"Hot",
       "logo":"",
-      "image":"https://sparkpool-expo.oss-cn-shanghai.aliyuncs.com/img-btc/hot/blockchair.png"
+      "image":"/img-btc/hot/blockchair.png"
    },
    {
       "name":"LocalBitcoin",
@@ -57,7 +57,7 @@
       "tag":"热门推荐",
       "tag_en":"Hot",
       "logo":"",
-      "image":"https://sparkpool-expo.oss-cn-shanghai.aliyuncs.com/img-btc/hot/localbitcoin.webp"
+      "image":"/img-btc/hot/localbitcoin.png"
    },
    {
       "name":"Bitcoin Wiki",
@@ -69,7 +69,7 @@
       "tag":"热门推荐",
       "tag_en":"Hot",
       "logo":"",
-      "image":"https://sparkpool-expo.oss-cn-shanghai.aliyuncs.com/img-btc/hot/bitwiki.png"
+      "image":"/img-btc/hot/bitwiki.png"
    },
    {
       "name":"Bitcoin Magazine",
@@ -81,7 +81,7 @@
       "tag":"热门推荐",
       "tag_en":"Hot",
       "logo":"",
-      "image":"https://sparkpool-expo.oss-cn-shanghai.aliyuncs.com/img-btc/hot/Bitcoin-Magazine.png"
+      "image":"/img-btc/hot/Bitcoin-Magazine.png"
    },
    {
       "name":"Bitcoin Optech",
@@ -93,7 +93,7 @@
       "tag":"热门推荐",
       "tag_en":"Hot",
       "logo":"",
-      "image":""
+      "image":"/img-btc/hot/bitcoinoptech.png"
    },
    {
       "name":"Bitcoin Communities",
