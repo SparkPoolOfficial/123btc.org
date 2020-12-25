@@ -51,7 +51,7 @@ class NavHotItemCard extends PureComponent {
                 <Grid item xs={6} sm={4} md={3} key={`Hot-${index}`}>
                   <Link
                     color="textPrimary"
-                    href={`${language === 'zh' ? item.url : (item.url_en || item.url)}?utm_resource=eth123.org`}
+                    href={`${language === 'zh' ? item.url : (item.url_en || item.url)}?utm_resource=123btc.org`}
                     target="_blank"
                     underline='none'
                     onClick={() => {
@@ -62,7 +62,6 @@ class NavHotItemCard extends PureComponent {
                       flexDirection="column"
                       justifyContent="center"
                       alignItems="center"
-                      py={2}
                       borderRadius={8}
                       backgroundColor="#fff"
                       className="hotCard">

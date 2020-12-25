@@ -38,7 +38,7 @@ class Footer extends PureComponent {
             color="primary"
             style={{ textTransform: 'none' }}
             onClick={() => {
-              window.open('https://github.com/SparkPoolOfficial/eth123.org/issues');
+              window.open('https://github.com/SparkPoolOfficial/123btc.org/issues');
             }}
             >
             {t('submit')}

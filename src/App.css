@@ -84,8 +84,8 @@
     height: 78px;
   }
   .hotCard > img {
-    height: 78px;
-    width: 165.31px;
+    height: 100%;
+    /* width: 165.31px; */
   }
   .toggleBtn {
     width: 100%;

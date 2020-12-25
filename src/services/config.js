@@ -1,3 +1,3 @@
-export const jsonHost = 'https://expo-res.sparkpool.com/SparkPoolOfficial/eth123.org';
+export const jsonHost = 'https://expo-res.sparkpool.com/SparkPoolOfficial/123btc.org';
 
 export const imgHost = 'https://expo-res.sparkpool.com';

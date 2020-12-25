@@ -10,7 +10,7 @@ import classnames from 'classnames';
 import throttle from 'lodash.throttle';
 
 import Box from '../Box';
-import LogoImg from '../../assets/logo_title_new.svg';
+import LogoImg from '../../assets/logo_title.svg';
 import styles from './styles.module.css';
 import { getSkeletonList } from '../../services';
 
@@ -174,7 +174,7 @@ class NavBar extends PureComponent {
                 alignItems="center"
                 justifyContent="center"
                 p={2}>
-                <img src={LogoImg} alt="eth123" height={17} />
+                <img src={LogoImg} alt="123btc" height={17} />
               </Box>
               <Divider />
               <Box

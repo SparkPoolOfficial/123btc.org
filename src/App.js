@@ -38,12 +38,12 @@ const theme = createMuiTheme({
 
 const translations = {
   zh: {
-    subTitle: '以太坊生态资源导航',
+    subTitle: '比特币生态资源导航',
     more: '一起发现更多新产品',
     submit: '提　交',
   },
   en: {
-    subTitle: 'A Portal to Ethereum Ecosystem',
+    subTitle: 'A Portal to Bitcoin Ecosystem',
     more: 'Discover more new products',
     submit: 'Submit',
   }
@@ -135,7 +135,7 @@ class App extends React.Component {
               onClick={() => {
                 const lng = language === 'zh' ? 'en' : 'zh';
                 window.localStorage.setItem('i18nextLng', lng);
-                document.cookie = `i18next=${lng};path=/;domain=.eth123.org`;
+                document.cookie = `i18next=${lng};path=/;domain=.123btc.org`;
                 this.setState({ language: lng });
               }}
               size="small"
