@@ -95,7 +95,7 @@ const NavItem = ({
             </Typography>
             <Typography
               variant="caption"
-              style={{ color: '#999', wordBreak: 'break-all' }}>
+              className="cardItem_desc">
               {renderDesc()}
             </Typography>
           </Box>

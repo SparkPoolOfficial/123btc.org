@@ -17,6 +17,17 @@
   color: #333;
 }
 
+.cardItem_desc {
+  display: -webkit-box;
+  /*! autoprefixer: off */
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  overflow: hidden;
+  color: #999;
+}
+
 
 .item_desc {
   font-size: 12px;
