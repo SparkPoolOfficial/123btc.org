@@ -115,7 +115,7 @@ const Header = ({
                   />
                 </Box>
               </a>
-              <a
+              {/* <a
                 href={ETH123URL}
                 target="_blank"
                 rel="noreferrer"
@@ -132,7 +132,7 @@ const Header = ({
                     {t('ethTitle')}
                   </Box>
                 </Box>
-              </a>
+              </a> */}
             </Box>
             <Box>
               {renderLanguageBtn()}
@@ -170,7 +170,7 @@ const Header = ({
               flexDirection="row"
               alignItems="center">
               <BTCLOGO />
-              <IconButton
+              {/* <IconButton
                 aria-label="more"
                 aria-controls="domain-menu"
                 aria-haspopup="true"
@@ -181,7 +181,7 @@ const Header = ({
                   alt=""
                   height={24}
                 />
-              </IconButton>
+              </IconButton> */}
             </Box>
             <Box width={32}>
               <Box
@@ -193,7 +193,7 @@ const Header = ({
             </Box>
           </Box>
         </Container>
-        <Menu
+        {/* <Menu
           id="domain-menu"
           anchorEl={anchorEl}
           keepMounted
@@ -206,7 +206,7 @@ const Header = ({
           }}>
             123ETH
           </MenuItem>
-        </Menu>
+        </Menu> */}
       </Box>
     )
   }
