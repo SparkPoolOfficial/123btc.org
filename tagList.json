@@ -50,6 +50,10 @@
    {
       "tag":"视频",
       "tag_en":"Videos"
+   }, 
+   {
+      "tag":"图书",
+      "tag_en":"Books"
    },
    {
       "tag":"开发者",
