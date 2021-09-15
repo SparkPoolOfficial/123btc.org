@@ -3,22 +3,22 @@ import {
   Container,
   Button,
   Hidden,
-  IconButton,
-  Menu,
-  MenuItem,
+  // IconButton,
+  // Menu,
+  // MenuItem,
 } from '@material-ui/core';
 import { Language } from '@material-ui/icons';
 import MenuIcon from '@material-ui/icons/Menu';
 
 import NavBar from './NavBar';
 
-import ETHLOGO from './Icons/123ETH';
+// import ETHLOGO from './Icons/123ETH';
 import BTCLOGO from './Icons/123BTC';
-import selectDomainIcon from '../assets/domain_select.svg';
+// import selectDomainIcon from '../assets/domain_select.svg';
 
 import Box from './Box';
 
-const ETH123URL = 'https://eth123.org/';
+// const ETH123URL = 'https://eth123.org/';
 
 const Header = ({
   language,
@@ -27,7 +27,7 @@ const Header = ({
 }) => {
 
   const [visible, setVisible] = useState(false);
-  const [anchorEl, setAnchorEl] = React.useState(null);
+  // const [anchorEl, setAnchorEl] = React.useState(null);
 
   const translations = {
     zh: {
@@ -44,13 +44,13 @@ const Header = ({
     return translations[language][key];
   }
 
-  const handleClick = (event) => {
-    setAnchorEl(event.currentTarget);
-  };
-
-  const handleClose = () => {
-    setAnchorEl(null);
-  };
+  // const handleClick = (event) => {
+  //   setAnchorEl(event.currentTarget);
+  // };
+  //
+  // const handleClose = () => {
+  //   setAnchorEl(null);
+  // };
 
   // render language change btn
   const renderLanguageBtn = () => {
