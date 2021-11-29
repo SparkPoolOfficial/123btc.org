@@ -16,16 +16,12 @@
       "tag_en":"Explorer"
    },
    {
+      "tag":"交易池",
+      "tag_en":"Mempool"
+   },
+   {
       "tag":"资讯",
       "tag_en":"News"
-   },
-   {
-      "tag":"行情",
-      "tag_en":"Price"
-   },
-   {
-      "tag":"交易所",
-      "tag_en":"Exchange"
    },
    {
       "tag":"买卖/使用",
@@ -94,10 +90,6 @@
    {
       "tag":"闪电网络钱包",
       "tag_en":"Lightning Network Wallet"
-   },
-   {
-      "tag":"交易",
-      "tag_en":"Transactions"
    },
    {
       "tag":"网络状态",
