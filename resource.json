@@ -168,18 +168,6 @@
       "image":""
    },
    {
-      "name":"IRC 聊天频道",
-      "name_en":"IRC Chat",
-      "desc":"",
-      "desc_en":"",
-      "url":"https://webchat.freenode.net/?channels=bitcoin&uio=d4",
-      "url_en":"",
-      "tag":"社区",
-      "tag_en":"Community",
-      "logo":"/img-btc/Community/ircchat.jpeg",
-      "image":""
-   },
-   {
       "name":"Mastodon",
       "name_en":"",
       "desc":"",
@@ -2549,6 +2537,18 @@
       "desc":"",
       "desc_en":"",
       "url":"https://developer.bitcoin.org/",
+      "url_en":"",
+      "tag":"开发者",
+      "tag_en":"Developer",
+      "logo":"/img-btc/btc.png",
+      "image":""
+   },
+   {
+      "name":"Bitcoin Core PR Review Club",
+      "name_en":"",
+      "desc":"",
+      "desc_en":"",
+      "url":"https://bitcoincore.reviews/",
       "url_en":"",
       "tag":"开发者",
       "tag_en":"Developer",
