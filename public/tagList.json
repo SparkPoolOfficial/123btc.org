@@ -1,70 +1,106 @@
 [
-  {
-    "tag": "热门推荐",
-    "tag_en":"Home"
-  },
-  {
-    "tag": "社区",
-    "tag_en":"Community"
-  },
-  {
-    "tag": "浏览器",
-    "tag_en":"Explorer"
-  },
-  {
-    "tag": "文档",
-    "tag_en":"Documentation"
-  },
-  {
-    "tag": "Eth2 资源",
-    "tag_en":"Eth2 Resources"
-  },
-  {
-    "tag": "DeFi",
-    "tag_en":"DeFi"
-  },
-  {
-    "tag": "Layer2",
-    "tag_en":"Layer2"
-  },
-  {
-    "tag": "DAO",
-    "tag_en":"DAO"
-  },
-  {
-    "tag": "数据分析",
-    "tag_en":"Data Analysis"
-  },
-  {
-    "tag": "工具",
-    "tag_en":"Tools"
-  },
-  {
-    "tag": "钱包",
-    "tag_en":"Wallet"
-  },
-  {
-    "tag": "客户端",
-    "tag_en":"Client"
-  },
-  {
-    "tag": "预言机",
-    "tag_en":"Oracle"
-  },
-  {
-    "tag": "应用",
-    "tag_en":"dApp"
-  },
-  {
-    "tag": "开发者资源",
-    "tag_en":"Developer Resources"
-  },
-  {
-    "tag": "资讯/博客",
-    "tag_en":"Newsletter/Blog"
-  },
-  {
-    "tag": "其它",
-    "tag_en":"Others"
-  }
+   {
+      "tag":"热门推荐",
+      "tag_en":"Hot"
+   },
+   {
+      "tag":"社区",
+      "tag_en":"Community"
+   },
+   {
+      "tag":"钱包",
+      "tag_en":"Wallet"
+   },
+   {
+      "tag":"浏览器",
+      "tag_en":"Explorer"
+   },
+   {
+      "tag":"交易池",
+      "tag_en":"Mempool"
+   },
+   {
+      "tag":"资讯",
+      "tag_en":"News"
+   },
+   {
+      "tag":"买卖/使用",
+      "tag_en":"Merchants"
+   },
+   {
+      "tag":"时事通讯",
+      "tag_en":"Newsletters"
+   },
+   {
+      "tag":"博客",
+      "tag_en":"Blogs"
+   },
+   {
+      "tag":"播客",
+      "tag_en":"Podcasts"
+   },
+   {
+      "tag":"教育 & 研究资源",
+      "tag_en":"Educational & Research Resources"
+   },
+   {
+      "tag":"视频",
+      "tag_en":"Videos"
+   }, 
+   {
+      "tag":"图书",
+      "tag_en":"Books"
+   },
+   {
+      "tag":"开发者",
+      "tag_en":"Developer"
+   },
+   {
+      "tag":"隐私",
+      "tag_en":"Privacy"
+   },
+   {
+      "tag":"BTC 锚定币",
+      "tag_en":"Bitcoin-pegged Token"
+   },
+   {
+      "tag":"侧链",
+      "tag_en":"Sidechains"
+   },
+   {
+      "tag":"分叉",
+      "tag_en":"Forks"
+   },
+   {
+      "tag":"客户端",
+      "tag_en":"Clients"
+   },
+   {
+      "tag":"节点",
+      "tag_en":"Nodes"
+   },
+   {
+      "tag":"挖矿",
+      "tag_en":"Mining"
+   },
+   {
+      "tag":"闪电网络",
+      "tag_en":"Lightning Network"
+   },
+   {
+      "tag":"闪电网络钱包",
+      "tag_en":"Lightning Network Wallet"
+   },
+   {
+      "tag":"网络状态",
+      "tag_en":"Network Statistics"
+   },
+   {
+      "tag":"市场指标",
+      "tag_en":"Market Metrics"
+   },
+   {
+      "tag":"其它",
+      "tag_en":"Others"
+   }
 ]

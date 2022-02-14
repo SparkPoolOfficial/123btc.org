@@ -1,3 +1,3 @@
-export const jsonHost = 'https://sparkpool-expo.oss-cn-shanghai.aliyuncs.com/SparkPoolOfficial/123btc.org';
+export const jsonHost = '';
 
-export const imgHost = 'https://sparkpool-expo.oss-cn-shanghai.aliyuncs.com';
+export const imgHost = '/static';
