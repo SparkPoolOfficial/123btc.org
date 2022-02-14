@@ -3,20 +3,20 @@ import {
   CssBaseline,
   Container,
   // Box,
-  Typography,
-  Button,
+  // Typography,
+  // Button,
   Hidden,
 } from '@material-ui/core';
 import {
   createMuiTheme,
   ThemeProvider,
 } from '@material-ui/core/styles';
-import { Language, Menu } from '@material-ui/icons';
+// import { Language, Menu } from '@material-ui/icons';
 
 import NavBar from './components/NavBar';
 import NavHotItemCard from './components/NavHotItemCard';
 import NavItemCard from './components/NavItemCard';
-import Logo from './components/Logo';
+// import Logo from './components/Logo';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Box from './components/Box';
@@ -26,7 +26,7 @@ import { get } from './services/fetch';
 import { getDefaultLanguage } from './services';
 
 import './App.css';
-import BoxStyles from './components/Box.module.css';
+// import BoxStyles from './components/Box.module.css';
 
 const theme = createMuiTheme({
   palette: {
@@ -148,6 +148,7 @@ class App extends React.Component {
           </Box>
         </Container>
         <Footer
+          language={language}
           footerVisible={footerVisible}
           t={t}
         />
