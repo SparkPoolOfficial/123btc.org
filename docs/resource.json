@@ -384,30 +384,6 @@
       "image":""
    },
    {
-      "name":"KeepPay",
-      "name_en":"",
-      "desc":"",
-      "desc_en":"",
-      "url":"https://shapeshift.com/keepkey",
-      "url_en":"",
-      "tag":"钱包",
-      "tag_en":"Wallet",
-      "logo":"/img-btc/wallet/keeppay.png",
-      "image":""
-   },
-   {
-      "name":"Onekey",
-      "name_en":"",
-      "desc":"",
-      "desc_en":"",
-      "url":"https://onekey.so/",
-      "url_en":"",
-      "tag":"钱包",
-      "tag_en":"Wallet",
-      "logo":"/img-btc/wallet/onekey.png",
-      "image":""
-   },
-   {
       "name":"Muun",
       "name_en":"",
       "desc":"",
@@ -453,102 +429,6 @@
       "tag":"钱包",
       "tag_en":"Wallet",
       "logo":"/img-btc/wallet/Bitcoinknots.png",
-      "image":""
-   },
-   {
-      "name":"Bither",
-      "name_en":"",
-      "desc":"",
-      "desc_en":"",
-      "url":"https://bither.net/",
-      "url_en":"",
-      "tag":"钱包",
-      "tag_en":"Wallet",
-      "logo":"/img-btc/wallet/bither.jpg",
-      "image":""
-   },
-   {
-      "name":"Bitpay",
-      "name_en":"",
-      "desc":"",
-      "desc_en":"",
-      "url":"https://bitpay.com/",
-      "url_en":"",
-      "tag":"钱包",
-      "tag_en":"Wallet",
-      "logo":"/img-btc/wallet/Bitpay.jpg",
-      "image":""
-   },
-   {
-      "name":"Blockchain",
-      "name_en":"",
-      "desc":"",
-      "desc_en":"",
-      "url":"https://www.blockchain.com/",
-      "url_en":"",
-      "tag":"钱包",
-      "tag_en":"Wallet",
-      "logo":"/img-btc/wallet/BLOCKCHAIN.jpg",
-      "image":""
-   },
-   {
-      "name":"Bitpie",
-      "name_en":"",
-      "desc":"",
-      "desc_en":"",
-      "url":"https://bitpie.com/",
-      "url_en":"",
-      "tag":"钱包",
-      "tag_en":"Wallet",
-      "logo":"/img-btc/wallet/Bitpie.jpg",
-      "image":""
-   },
-   {
-      "name":"Bixin",
-      "name_en":"",
-      "desc":"",
-      "desc_en":"",
-      "url":"https://bixin.com/",
-      "url_en":"",
-      "tag":"钱包",
-      "tag_en":"Wallet",
-      "logo":"/img-btc/wallet/Bixin.jpg",
-      "image":""
-   },
-   {
-      "name":"Edge",
-      "name_en":"",
-      "desc":"",
-      "desc_en":"",
-      "url":"https://edge.app/",
-      "url_en":"",
-      "tag":"钱包",
-      "tag_en":"Wallet",
-      "logo":"/img-btc/wallet/Edge.jpg",
-      "image":""
-   },
-   {
-      "name":"BRD",
-      "name_en":"",
-      "desc":"",
-      "desc_en":"",
-      "url":"https://brd.com/",
-      "url_en":"",
-      "tag":"钱包",
-      "tag_en":"Wallet",
-      "logo":"/img-btc/wallet/BRD.jpg",
-      "image":""
-   },
-   {
-      "name":"BTCpay",
-      "name_en":"",
-      "desc":"企业端收款钱包",
-      "desc_en":"",
-      "url":"https://btcpayserver.org/",
-      "url_en":"",
-      "tag":"钱包",
-      "tag_en":"Wallet",
-      "logo":"/img-btc/wallet/btcpayserver.png",
       "image":""
    },
    {
