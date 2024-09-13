@@ -19,6 +19,11 @@
     "react-virtualized": "^9.22.2",
     "web-vitals": "^0.2.4"
   },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-react": "^7.16.0"
+  },
   "homepage": ".",
   "scripts": {
     "start": "react-scripts start",
