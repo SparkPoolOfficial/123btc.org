@@ -343,7 +343,7 @@
 		"url_en": "",
 		"tag": "硬件签名器",
 		"tag_en": "Hardware Signer",
-		"logo": "/imgs/wallet/trezor.jpg",
+		"logo": "/img-btc/wallet/trezor.png",
 		"image": ""
 	},
 	{
@@ -355,7 +355,7 @@
 		"url_en": "",
 		"tag": "硬件签名器",
 		"tag_en": "Hardware Signer",
-		"logo": "/imgs/wallet/ledger.jpg",
+		"logo": "/img-btc/wallet/ledger.jpg",
 		"image": ""
 	},
 	{
