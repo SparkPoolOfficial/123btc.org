@@ -1,10 +1,10 @@
 [{
-		"name": "比特币官网",
-		"name_en": "Bitcoin",
+		"name": "Bitcoin",
+		"name_en": "",
 		"desc": "",
 		"desc_en": "",
-		"url": "https://bitcoin.org/zh_CN/",
-		"url_en": "https://bitcoin.org/en/",
+		"url": "https://bitcoin.org/",
+		"url_en": "",
 		"tag": "热门推荐",
 		"tag_en": "Hot",
 		"logo": "",
@@ -23,40 +23,40 @@
 		"image": "/img-btc/hot/bitcointalk.png"
 	},
 	{
-		"name": "Bitcoin Core",
+		"name": "Bitcoin Optech",
 		"name_en": "",
 		"desc": "",
 		"desc_en": "",
-		"url": "https://bitcoin.org/en/bitcoin-core/",
+		"url": "https://bitcoinops.org/en/newsletters/",
 		"url_en": "",
 		"tag": "热门推荐",
 		"tag_en": "Hot",
 		"logo": "",
-		"image": "/img-btc/hot/bitcore.png"
+		"image": "/img-btc/hot/bitcoinoptech.png"
 	},
 	{
-		"name": "Blockchair",
+		"name": "Mempool",
 		"name_en": "",
 		"desc": "",
 		"desc_en": "",
-		"url": "https://blockchair.com/bitcoin",
+		"url": "https://mempool.space/",
 		"url_en": "",
 		"tag": "热门推荐",
 		"tag_en": "Hot",
 		"logo": "",
-		"image": "/img-btc/hot/blockchair.png"
+		"image": "/img-btc/hot/mempool.png"
 	},
 	{
-		"name": "LocalBitcoin",
+		"name": "Stacker News",
 		"name_en": "",
 		"desc": "",
 		"desc_en": "",
-		"url": "https://localbitcoins.com/",
+		"url": "https://stacker.news/",
 		"url_en": "",
 		"tag": "热门推荐",
 		"tag_en": "Hot",
 		"logo": "",
-		"image": "/img-btc/hot/localbitcoin.png"
+		"image": "/img-btc/hot/stackernews.png"
 	},
 	{
 		"name": "Reddit",
@@ -83,16 +83,16 @@
 		"image": "/img-btc/hot/Bitcoin-Magazine.png"
 	},
 	{
-		"name": "Bitcoin Optech",
+		"name": "Satoshi Nakamoto Institute",
 		"name_en": "",
 		"desc": "",
 		"desc_en": "",
-		"url": "https://bitcoinops.org/en/newsletters/",
+		"url": "https://nakamotoinstitute.org/",
 		"url_en": "",
 		"tag": "热门推荐",
 		"tag_en": "Hot",
 		"logo": "",
-		"image": "/img-btc/hot/bitcoinoptech.png"
+		"image": "/img-btc/hot/satoshiinstitute.png"
 	},
 	{
 		"name": "比特币社区",
