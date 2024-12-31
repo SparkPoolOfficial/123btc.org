@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "123btc.org",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -22,7 +22,8 @@
   "devDependencies": {
     "@babel/core": "^7.16.0",
     "@babel/preset-env": "^7.16.0",
-    "@babel/preset-react": "^7.16.0"
+    "@babel/preset-react": "^7.16.0",
+    "react-refresh": "^0.16.0"
   },
   "homepage": ".",
   "scripts": {

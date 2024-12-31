@@ -7,7 +7,6 @@ import {
   // Menu,
   // MenuItem,
 } from '@material-ui/core';
-import { Language } from '@material-ui/icons';
 import MenuIcon from '@material-ui/icons/Menu';
 
 import NavBar from './NavBar';
@@ -20,12 +19,7 @@ import Box from './Box';
 
 // const ETH123URL = 'https://eth123.org/';
 
-const Header = ({
-  language,
-  onChangeLanguage,
-  tagList,
-}) => {
-
+const Header = ({ language, onChangeLanguage, tagList }) => {
   const [visible, setVisible] = useState(false);
   // const [anchorEl, setAnchorEl] = React.useState(null);
 
@@ -36,13 +30,13 @@ const Header = ({
     },
     en: {
       ethTitle: 'A Portal to Ethereum Ecosystem',
-      btcTitle: 'A Portal to Bitcoin Ecosystem'
-    }
-  }
+      btcTitle: 'A Portal to Bitcoin Ecosystem',
+    },
+  };
 
   const t = (key) => {
     return translations[language][key];
-  }
+  };
 
   // const handleClick = (event) => {
   //   setAnchorEl(event.currentTarget);
@@ -55,63 +49,59 @@ const Header = ({
   // render language change btn
   const renderLanguageBtn = () => {
     return (
-      <Button
-        disableElevation={true}
-        variant="outlined"
-        onClick={() => {
-          const lng = language === 'zh' ? 'en' : 'zh';
-          window.localStorage.setItem('i18nextLng', lng);
-          document.cookie = `i18next=${lng};path=/;domain=.eth123.org`;
-          document.cookie = `i18next=${lng};path=/;domain=.123btc.org`;
-          onChangeLanguage(lng);
-        }}
-        size="small"
-        startIcon={<Language />}
-        className="languageBtn"
-        style={{ textTransform: 'none' }}>
-        <Box fontWeight="400" className="languageBtn_text">
-          {language === "zh" ? 'English' : '中文'}
-        </Box>
-      </Button>
-    )
-  }
+      <Box display='flex' alignItems='center'>
+        <select
+          value={language}
+          onChange={(e) => {
+            const lng = e.target.value;
+            window.localStorage.setItem('i18nextLng', lng);
+            document.cookie = `i18next=${lng};path=/;domain=.eth123.org`;
+            document.cookie = `i18next=${lng};path=/;domain=.123btc.org`;
+            onChangeLanguage(lng);
+          }}
+          style={{
+            padding: '6px 12px',
+            fontSize: '14px',
+            borderRadius: '4px',
+            border: '1px solid #ccc',
+            display: 'flex',
+            alignItems: 'center',
+          }}
+        >
+          <option value='en'>English</option>
+          <option value='zh'>中文</option>
+        </select>
+      </Box>
+    );
+  };
 
   // web header
   const webHeader = () => {
     return (
-      <Box
-        mb={3.75}
-        backgroundColor="#fff"
-        boxShadow="0 2px 8px #f0f1f2">
+      <Box mb={3.75} backgroundColor='#fff' boxShadow='0 2px 8px #f0f1f2'>
         <Container>
           <Box
-            display="flex"
-            flexDirection="row"
-            alignItems="center"
-            justifyContent="space-between"
-            py={2}>
-            <Box
-              display="flex"
-              flexDirection="row">
-              <a
-                href="/"
-                style={{ textDecoration: 'none' }}>
-                <Box position="relative">
+            display='flex'
+            flexDirection='row'
+            alignItems='center'
+            justifyContent='space-between'
+            py={2}
+          >
+            <Box display='flex' flexDirection='row'>
+              <a href='/' style={{ textDecoration: 'none' }}>
+                <Box position='relative'>
                   <BTCLOGO />
-                  <Box
-                    mt={.5}
-                    fontSize={14}
-                    color="#999">
+                  <Box mt={0.5} fontSize={14} color='#999'>
                     {t('btcTitle')}
                   </Box>
                   <Box
-                    position="absolute"
+                    position='absolute'
                     bottom={-16}
                     left={0}
                     height={4}
-                    width="100%"
+                    width='100%'
                     borderRadius={2}
-                    backgroundColor="#FF7828"
+                    backgroundColor='#FF7828'
                   />
                 </Box>
               </a>
@@ -134,41 +124,35 @@ const Header = ({
                 </Box>
               </a> */}
             </Box>
-            <Box>
-              {renderLanguageBtn()}
-            </Box>
+            <Box>{renderLanguageBtn()}</Box>
           </Box>
         </Container>
       </Box>
-    )
-  }
+    );
+  };
 
   // wap header
   const wapHeader = () => {
     return (
-      <Box
-        mb={2}
-        py={1.25}
-        backgroundColor="#fff">
+      <Box mb={2} py={1.25} backgroundColor='#fff'>
         <Container>
           <Box
-            display="flex"
-            flexDirection="row"
-            alignItems="center"
-            justifyContent="space-between"
-            height={30}>
+            display='flex'
+            flexDirection='row'
+            alignItems='center'
+            justifyContent='space-between'
+            height={30}
+          >
             <Box
-              display="flex"
-              cursor="pointer"
+              display='flex'
+              cursor='pointer'
               onClick={() => {
                 setVisible(true);
-              }}>
+              }}
+            >
               <MenuIcon />
             </Box>
-            <Box
-              display="flex"
-              flexDirection="row"
-              alignItems="center">
+            <Box display='flex' flexDirection='row' alignItems='center'>
               <BTCLOGO />
               {/* <IconButton
                 aria-label="more"
@@ -184,10 +168,7 @@ const Header = ({
               </IconButton> */}
             </Box>
             <Box width={32}>
-              <Box
-                position="absolute"
-                top={10}
-                right={16}>
+              <Box position='absolute' top={10} right={16}>
                 {renderLanguageBtn()}
               </Box>
             </Box>
@@ -208,14 +189,12 @@ const Header = ({
           </MenuItem>
         </Menu> */}
       </Box>
-    )
-  }
+    );
+  };
 
   return (
     <Box>
-      <Hidden smDown>
-        {webHeader()}
-      </Hidden>
+      <Hidden smDown>{webHeader()}</Hidden>
       <Hidden mdUp>
         {wapHeader()}
         <NavBar
@@ -229,7 +208,7 @@ const Header = ({
         />
       </Hidden>
     </Box>
-  )
-}
+  );
+};
 
 export default Header;
